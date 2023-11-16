@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="iLeave 4 Enterprise - โปรแกรมลางานออนไลน์">
+    <meta name="author" content="อีสานเดฟ , esandev.com">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon.png">
+    <title>iLeave 5 Enterprise - โปรแกรมลางานออนไลน์</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- owl slider CSS -->
+    <link href="assets/owl.carousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/owl.carousel/owl.theme.default.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-97322513-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body class="fix-header">
+
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+
+    <div id="main-wrapper">
+
+        <header class="topheader" id="top">
+            <div class="fix-width">
+                <nav class="navbar navbar-expand-md navbar-light p-l-0">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                    <!-- Logo will be here -->
+                    <a class="navbar-brand" href="index.php">
+                        <h1>iLeave 5 Enterprise</h1>
+                    </a>
+                    <!-- This is the navigation menu -->
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto stylish-nav">
+                            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"> บริการ Server และ Domain</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="" target="_blank">VPS พร้อม Domain 4,000 บาทต่อปี</a>
+                                    <a class="dropdown-item" href="https://esandev.com/hosting" target="_blank">Hosting
+                                        พร้อม Domain 1,000 บาทต่อปี</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">โปรแกรม</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="index.html" target="_blank">โปรแกรมลางานออนไลน์ 5</a>
+                                    <a class="dropdown-item" href="https://esandev.com/ileave3"
+                                        target="_blank">โปรแกรมลางานออนไลน์ 3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link"
+                                    href="https://drive.google.com/file/d/1CQXm1imTeQwUu8lN7DOI5QztvIIQv_Ud/view?usp=sharing"
+                                    target="_blank">คู่มือติดตั้งและใช้งาน</a> </li>
+                            <li class="nav-item"> <a class="nav-link"
+                                    href="https://medium.com/โปรแกรมลางานออนไลน์/ปรับปรุง-โปรแกรมลางานออนไลน์-e754baa3cb32"
+                                    target="_blank">อัพเดต</a> </li>
+
+
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="fix-width">
+                    <div class="row banner-text">
+                        <div class="col-lg-5 m-t-20">
+                            <h1>โปรแกรมลางานออนไลน์ 5<br /> <span class="text-info">รองรับการใช้งานของหน่วยงานต่างๆ
+                                    ได้</span></h1>
+                            <h2>ราคาเพียง <span class="text-danger">1,850</span> บาท (พร้อม Source Code)</h1>
+                                <span>อัพเดทฟรี ตลอดอายุการใช้งาน</span>
+                                <p class="subtext"><span class="font-medium">เวอร์ชั่นใหม่ ระบบการลางานออนไลน์ iLeave
+                                        Enterprise 5.0 </span>สามารถทำรายการลาออนไลน์ <span
+                                        class="font-medium">ส่งไปยังผู้บริหาร ได้อย่างรวดเร็ว &amp; ใช้งานง่าย
+                                        สะดวก</span> แยกการลาออกอย่างชัดเจน <span class="font-medium">แจ้งเตือนการลาผ่าน
+                                        Line แจ้งเตือนการลาผ่านอีเมล</span> ดูสถิติการลา ตามปีงบประมาณ, <span
+                                        class="font-medium">กำหนดวันเวลาการลาได้ การลาเป็นกะ การลาเป็นชั่วโมง ลาเป็นวัน
+                                        ลาครึ่งวัน</span> </p>
+                                <div class="down-btn">
+                                    <a href="https://la.rmu.ac.th/" class="btn btn-info m-b-10"
+                                        target="_blank">ทดลองใช้งาน</a>
+                                    <a href="https://www.facebook.com/m.nakharin" class="btn btn-success m-b-10"
+                                        target="_blank">สอบถามและสั่งซื้อ</a>
+                                    <br /><br />
+                                    <h4><span class="text-success">*ลูกค้าที่มี iLeave 3 - 4 แล้วสามารถอัพเดต V.5
+                                            Enterprise
+                                            ได้ฟรีครับ</span> </h4>
+                                    <h3><span class="text-danger">*ก่อนสั่งซื้อให้ทำการทดลองใช้งานตัว Demo
+                                            ดูก่อนนะครับ</span> </h3>
+                                </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="hero-banner"> <img src="images/banner.jpg" alt="Material Pro admin template" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Featured Section -->
+                <!-- ============================================================== -->
+                <div class="row light-blue">
+                    <div class="col-md-12" id="demos">
+                        <div class="text-center"> <small class="text-info">iLeave 5 Enterprise โปรแกรมลางานออนไลน์
+                            </small>
+                            <h2 class="display-7">iLeave 5 Enterprise โปรแกรมลางานออนไลน์ ตอบสนององค์กรไร้กระดาษ </h2>
+                            <p>"Responsive รองรับการใช้งานบน Desktop และ Mobile"
+                            </p>
+                            <div class="text-center">
+                                <script
+                                    src="https://www.trustmarkthai.com/callbackData/initialize.js?t=e7b498da-21-5-23e7a5b01bfc7718657f28eb16525dc8079d4"
+                                    id="dbd-init"></script>
+                                <div id="Certificate-banners">
+                                </div>
+                            </div>
+                            <div class="max-width">
+                                <div class="row text-center">
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-01.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-02.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-03.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-04.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-05.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-06.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-1.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-07.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-08.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-09.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-13.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-14.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-15.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-16.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 m-t-40">
+                                        <div class="image-box"> <img src="images/product/ileave4-17.png"
+                                                alt="โปรแกรมลางานออนไลน์" class="img-responsive" />
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Feature with Icons -->
+                    <!-- ============================================================== -->
+                    <div class="row white-space">
+                        <div class="col-md-12">
+                            <div class="fix-width icon-section"> <small class="text-info">iLeave 5 Enterprise
+                                    โปรแกรมลางานออนไลน์</small>
+                                <h2 class="display-7">ประเภทการลา</h2>
+                                <!-- Row -->
+                                <div class="row m-t-40">
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png" alt="ลากิจส่วนตัว">
+                                        <h4 class="font-500">ลาป่วย</h4>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png" alt="การลาป่วย">
+                                        <h4 class="font-500">ลากิจส่วนตัว</h4>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png" alt="ลาคลอดบุตร">
+                                        <h4 class="font-500">ลาคลอดบุตร</h4>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png" alt="ลาพักผ่อน">
+                                        <h4 class="font-500">ลาพักผ่อน</h4>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png"
+                                            alt="ลาไปช่วยเหลือภริยาที่คลอดบุตร">
+                                        <h4 class="font-500">ลาไปช่วยเหลือภริยาที่คลอดบุตร</h4>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png" alt="ลาอุปสมบท">
+                                        <h4 class="font-500">ลาอุปสมบท</h4>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png"
+                                            alt="ลาเข้ารับการตรวจเลือกหรือเข้ารับการเตรียมพล">
+                                        <h4 class="font-500">ลาเข้ารับการตรวจเลือกหรือเข้ารับการเตรียมพล</h4>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png"
+                                            alt="ลาไปศึกษา ฝึกอบรม ปฏิบัติการวิจัย หรือดูงาน">
+                                        <h4 class="font-500">ลาไปศึกษา ฝึกอบรม ปฏิบัติการวิจัย หรือดูงาน</h4>
+                                        <p>หากต้องการใช้การลาประเภทนี้ มีค่าใช้จ่ายเพิ่ม 600 บาท</p>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png"
+                                            alt="ลาไปปฏิบัติงานในองค์การระหว่างประเทศ">
+                                        <h4 class="font-500">ลาไปปฏิบัติงานในองค์การระหว่างประเทศ</h4>
+                                        <p>หากต้องการใช้การลาประเภทนี้ มีค่าใช้จ่ายเพิ่ม 600 บาท</p>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png"
+                                            alt="ลาติดตามคู่สมรส">
+                                        <h4 class="font-500">ลาติดตามคู่สมรส</h4>
+                                        <p>หากต้องการใช้การลาประเภทนี้ มีค่าใช้จ่ายเพิ่ม 600 บาท</p>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png"
+                                            alt="ลาไปฟื้นฟูสมรรถภาพด้านอาชีพ">
+                                        <h4 class="font-500">ลาไปฟื้นฟูสมรรถภาพด้านอาชีพ</h4>
+                                        <p>หากต้องการใช้การลาประเภทนี้ มีค่าใช้จ่ายเพิ่ม 600 บาท</p>
+                                    </div>
+                                    <!-- /.col -->
+                                    <!-- .col -->
+                                    <div class="col-lg-3 col-md-6"> <img src="images/dedicated.png"
+                                            alt="ลาวันหยุดนักขัตฤกษ์">
+                                        <h4 class="font-500">ลาวันหยุดนักขัตฤกษ์</h4>
+                                    </div>
+                                    <!-- /.col -->
+
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                            <div class="text-center">
+                                <!-- Row --><a href="https://la.rmu.ac.th/" class="btn btn-lg btn-success m-t-40"
+                                    target="_blank"> ทดลองใช้งาน</a>
+                                <!-- Row -->
+
+                            </div>
+                            <div>
+                                <hr />
+                                <ul>
+                                    <li>ผู้ลา : user = demo , password = 123456789</li>
+                                    <li>ผู้ตรวจสอบการลา : user = demo2 , password = 123456789</li>
+                                    <li>ผู้อนุมัติการลา : user = demo3 , password = 123456789</li>
+                                    <li>Admin : user = theadmin , password = 514244227</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Testimonial -->
+                <!-- ============================================================== -->
+                <div class="row light-blue">
+                    <div class="col-md-12">
+                        <div class="fix-width text-center"> <small class="text-info"></small>
+                            <h2 class="display-7">สนใจสั่งซื้อ<br />iLeave 5 Enterprise โปรแกรมลางานออนไลน์</h2>
+                            <h2 class="display-7">โทร.092-599-9091</h2>
+                            <a href="https://www.facebook.com/m.nakharin" target="_blank"><img height="36" border="0"
+                                    alt="เพิ่มเพื่อน"
+                                    src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- Call to action bar -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-md-12 call-to-action bg-success">
+                        <div class="fix-width">
+                            <div class="row">
+                                <div class="col-md-6 m-t-20 m-b-20"><span>
+                                        การชำระเงินสามารถเลือกช่องทางการชำระดังนี้</span></div>
+
+                                <table class="table text-white">
+                                    <thead>
+                                        <tr>
+                                            <th>ชื่อธนาคาร</th>
+                                            <th>สาขา</th>
+                                            <th class="hidden-sm">ชื่อบัญชี</th>
+                                            <th>หมายเลขบัญชี</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <h3>กสิกรไทย</h3</td> <td>
+                                                    <h3>สาขาเสริมไทยคอมเพล็กซ์</h3</td> <td class="hidden-sm">
+                                                        <h3>นายนครินทร์ ม่วงอ่อน</h3</td> <td>
+                                                            <h3>0468606003</h3>
+                                            </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <h3>พร้อมเพย์</h3</td> <td colspan="3">
+                                                    <h3>0925999091</h3</td> </tr> </tbody> </table> </div> </div> </div>
+                                                            </div> </div> <a
+                                                            class="bt-top btn btn-circle btn-lg btn-info" href="#top"><i
+                                                            class="ti-arrow-up"></i></a>
+                                                        <footer class="footer row">
+                                                            <div class="fix-width">
+                                                                <div class="row">
+                                                                    <div class="col-lg-3 col-md-6"> <a
+                                                                            class="navbar-brand" href="index.html">
+                                                                            <h1 style="color:ghostwhite;">iLeave 5</h1>
+                                                                        </a>
+                                                                        <p class="m-t-30">
+                                                                            <span class="text-white">เว็บภายใต้
+                                                                                ร้านอีสานเดฟ </span> <br />
+                                                                            <span style="font-size: 14px;">ทะเบียนการค้า
+                                                                                พค.0403/4410757000001</span> <br />
+
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-6">
+                                                                        <h2 style="color:ghostwhite;">ติดต่อสอบถาม</h2>
+                                                                        <ul class="footer-link list-icons">
+                                                                            <li><a href=""
+                                                                                    style="font-size: 20px;color: gold;"><i
+                                                                                        class="ti-angle-right"></i>
+                                                                                    092-599-9091</a></li>
+                                                                            <li><a href=""
+                                                                                    style="font-size: 20px;color: gold;"><i
+                                                                                        class="ti-angle-right"></i>
+                                                                                    m.nakharin@gmail.com</a></li>
+                                                                            <li><a href=""
+                                                                                    style="font-size: 20px;color: gold;"><i
+                                                                                        class="ti-angle-right"></i> Line
+                                                                                    : esandev</a></li>
+                                                                            <li><a href="https://www.la.in.th"><i
+                                                                                        class="ti-angle-right"></i>
+                                                                                    la.in.th</a></li>
+                                                                            <li><a href="https://www.esandev.in.th"><i
+                                                                                        class="ti-angle-right"></i>
+                                                                                    อีสานเดฟ</a></li>
+                                                                            <li><a href="https://www.atlaravel.com"><i
+                                                                                        class="ti-angle-right"></i>
+                                                                                    Atlavel</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-6">
+                                                                        <ul class="footer-link list-icons">
+                                                                            <li>
+                                                                                <i class="fab fa-facebook"></i><a
+                                                                                    href="https://www.facebook.com/m.nakharin">
+                                                                                    Facebook</a></li>
+                                                                            <li>
+                                                                                <i class="fab fa-twitter-square"></i><a
+                                                                                    href="https://twitter.com/leksoft">
+                                                                                    Twitter</a></li>
+                                                                            <li>
+                                                                                <i class="fab fa-google-plus"></i><a
+                                                                                    href=""> Google Plus</a> </li>
+                                                                            <li><i class="fab fa-github-square"></i><a
+                                                                                    href=""> Github</a></li>
+                                                                            <!-- <img src="http://qr-official.line.me/L/Z2rkTVamCx.png" width="160px" height="160px"> -->
+
+                                                                            <img src="http://qr-official.line.me/L/Z2rkTVamCx.png"
+                                                                                width="160px" height="160px">
+                                                                            <hr />
+                                                                            <a href="http://nav.cx/qjGCAA4"
+                                                                                target="_blank"><img height="36"
+                                                                                    border="0"
+                                                                                    src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png"></a>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-6">
+                                                                        <iframe
+                                                                            src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fesandevthailand%3Fref%3Dtn_tnmn&amp;width&amp;height=450&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=486206698189831"
+                                                                            scrolling="no" frameborder="0" style="border:none; overflow:hidden; 
+                                    " allowTransparency="true"></iframe>
+                                                                    </div>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="col-md-12 sub-footer">
+                                                                        <span>Copyright 2023. All Rights Reserved by <a
+                                                                                class="text-white"
+                                                                                href="https://www.esandev.in.th"
+                                                                                target="_blank">esandev.in.th</a></span>
+                                                                        <script
+                                                                            src="https://www.trustmarkthai.com/callbackData/initialize.js?t=e7b498da-21-5-23e7a5b01bfc7718657f28eb16525dc8079d4"
+                                                                            id="dbd-init"></script>
+                                                                        <div id="Certificate-banners">
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </footer>
+                                                        <!-- ============================================================== -->
+                                                        <!-- End footer -->
+                                                        <!-- ============================================================== -->
+                            </div>
+                            <!-- ============================================================== -->
+                            <!-- End Container fluid  -->
+                            <!-- ============================================================== -->
+                        </div>
+                        <!-- ============================================================== -->
+                        <!-- End Page wrapper  -->
+                        <!-- ============================================================== -->
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Wrapper -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- All Jquery -->
+                    <!-- ============================================================== -->
+                    <script src="js/jquery.min.js"></script>
+                    <!-- Bootstrap tether Core JavaScript -->
+                    <script src="bootstrap/js/popper.min.js"></script>
+                    <script src="bootstrap/js/bootstrap.min.js"></script>
+                    <!--Wave Effects -->
+                    <script src="js/waves.js"></script>
+                    <!--stickey kit -->
+                    <script src="js/sticky-kit.min.js"></script>
+                    <!-- jQuery for carousel -->
+                    <script src="assets/owl.carousel/owl.carousel.min.js"></script>
+                    <!--Custom JavaScript -->
+                    <script src="js/custom.min.js"></script>
+</body>
+
+</html>

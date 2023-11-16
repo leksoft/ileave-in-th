@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 11, 2016, 12:58:18 PM
+    Author     : leksoft
+*/
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../img/display-loading-image-while-page-loads-02.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+span.required{
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,Arial,Helvetica,sans-serif;
+    font-size:16px;
+    color:#ff2d2d;
+}
+
+ .div-image-center{
+        background-color: #FFF;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        text-align: center;
+ }

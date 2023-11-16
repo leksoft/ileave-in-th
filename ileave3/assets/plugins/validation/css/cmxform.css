@@ -1,0 +1,44 @@
+/**********************************
+
+Name: cmxform Styles
+
+***********************************/
+form.cmxform {
+
+}
+
+form.cmxform legend {
+
+}
+
+form.cmxform legend, form.cmxform label {
+
+}
+
+form.cmxform fieldset {
+
+}
+
+form.cmxform fieldset fieldset {
+
+}
+
+form.cmxform fieldset p, form.cmxform fieldset fieldset,form.cmxform p {
+	padding: 2px 10px 2px;
+	/*background: url(../images/cmxform-divider.gif) left bottom repeat-x;*/
+}
+
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+        display: inline;
+	color: red;
+	font-style: italic;
+        padding-left: 20px;
+        background: url('../images/unchecked.gif') center left no-repeat;
+}
+div.error { display: none; }
+form.cmxform input {	border: 1px solid #dddddd;padding: 2px;}
+form.cmxform input.checkbox { border: none }
+form.cmxform input:focus { border: 1px dotted black; }
+form.cmxform input.error { border: 1px dotted red; }
+form.cmxform .gray * { color: gray; }
